@@ -21,4 +21,13 @@ This project contributes to God’s Kingdom by equipping me with technical skill
 2. Develop resources for nonprofit organizations and ministries.
 3. Share open-source projects to empower Christian communities worldwide.
 
-Using technology with a purpose aligns with my faith, as it allows me to reflect the values of service, stewardship, and collaboration. This project is a reminder of how modern skills can glorify God and help others in meaningful ways.
+## Future Applications
+I plan to use these skills to:
+1. Collaborate on open-source projects.
+2. Develop tools for ministry operations.
+3. Contribute to professional software projects.
+
+
+## Project workflw documentation
+1. Repository creation
+2. Cloning the repsoitory
