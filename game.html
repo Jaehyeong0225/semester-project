@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaehyeong's Dessert Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/16d57c9235.js" crossorigin="anonymous"></script>
+
+  <script src="proj2.js" defer></script>
+  <script src="proj3.js" defer></script>
+  <script src="proj5.js" defer></script>
+  <script src="proj6.js" defer></script>
+  <script src="proj7.js" defer></script>
+  <script src="proj9.js" defer></script>
+  <script src="proj10.js" defer></script>
+  <script src="proj11.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="objects.js" defer></script> 
+</head>
+<body>
+  <nav class="menu-bar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-question"></i> About</a>
+    <a href="contact.html"><i class="fa-solid fa-message"></i> Contact</a>
+    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+    <a href="game.html"><i class="fa-solid fa-gamepad"></i>Game</a>
+    <a href="api.html"><i class="fa-solid fa-ice-cream"></i>Dessert</a>
+    <a href="search.html"><i class="fa-solid fa-search"></i>Search</a>
+    <a href="frames.html"><i class="fa-solid fa-chart-column"></i>Frames</a>
+  </nav>
+
+  <h1>Flag Match Game</h1>
+  <div class="highlight" id="timer">Time: 0s</div>
+  <button id="resetBtn" class="embedded-box">Reset</button>
+
+  <div class="puzzle-section">
+    <div id="piecesContainer" class="puzzle-pieces">
+      <img src="https://flagcdn.com/w320/kr.png" id="kr" class="flag piece" draggable="true" alt="Korea">
+      <img src="https://flagcdn.com/w320/us.png" id="us" class="flag piece" draggable="true" alt="USA">
+      <img src="https://flagcdn.com/w320/jp.png" id="jp" class="flag piece" draggable="true" alt="Japan">
+      <img src="https://flagcdn.com/w320/fr.png" id="fr" class="flag piece" draggable="true" alt="France">
+      <img src="https://flagcdn.com/w320/de.png" id="de" class="flag piece" draggable="true" alt="Germany">
+      <img src="https://flagcdn.com/w320/gb.png" id="gb" class="flag piece" draggable="true" alt="UK">
+      <img src="https://flagcdn.com/w320/cn.png" id="cn" class="flag piece" draggable="true" alt="China">
+    </div>
+
+    <div id="dropBoard" class="drop-board">
+      <div class="drop-zone" data-correct="kr">South Korea</div>
+      <div class="drop-zone" data-correct="us">United States</div>
+      <div class="drop-zone" data-correct="jp">Japan</div>
+      <div class="drop-zone" data-correct="fr">France</div>
+      <div class="drop-zone" data-correct="de">Germany</div>
+      <div class="drop-zone" data-correct="gb">UK</div>
+      <div class="drop-zone" data-correct="cn">China</div>
+    </div>
+  </div>
+
+  <div id="successMsg" class="bible-verse"></div>
+</body>
+</html>

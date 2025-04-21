@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaehyeong's Dessert Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/16d57c9235.js" crossorigin="anonymous"></script>
+
+  <script src="proj2.js" defer></script>
+  <script src="proj3.js" defer></script>
+  <script src="proj5.js" defer></script>
+  <script src="proj6.js" defer></script>
+  <script src="proj7.js" defer></script>
+  <script src="proj9.js" defer></script>
+  <script src="proj10.js" defer></script>
+  <script src="proj11.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="objects.js" defer></script> 
+</head>
+<body>
+  <nav class="menu-bar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-question"></i> About</a>
+    <a href="contact.html"><i class="fa-solid fa-message"></i> Contact</a>
+    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+    <a href="game.html"><i class="fa-solid fa-gamepad"></i>Game</a>
+    <a href="api.html"><i class="fa-solid fa-ice-cream"></i>Dessert</a>
+    <a href="search.html"><i class="fa-solid fa-search"></i>Search</a>
+    <a href="frames.html"><i class="fa-solid fa-chart-column"></i>Frames</a>
+      
+  </nav>
+
+
+  <h1>Welcome to Jaehyeong's Dessert Shop</h1>
+
+  <div class="info-box">
+    <h2>About Me</h2>
+    <p><strong>Where I'm From:</strong> South Korea</p>
+    <p><strong>Major & Year:</strong> Information Technology, Senior</p>
+    <p><strong>Fun Fact:</strong> I love banana pudding!</p>
+    <p><strong>Website Idea:</strong> Selling homemade dessert recipes and baked goods.</p>
+  </div>
+
+  <h2>Our Delicious Desserts</h2>
+  <div class="image-gallery">
+    <img src="banana.jpg" alt="Dessert 1" />
+    <img src="strawberries.jpg" alt="Dessert 2" />
+    <img src="puding.jpg" alt="Dessert 3" />
+    <img src="muffin.jpg" alt="Dessert 4" />
+  </div>
+
+  <div id="special-section">
+    <h2>Calculate Your Birth Year</h2>
+    <form id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+
+  <div id="result"></div>
+
+  <div id="task-area" class="info-box">
+    <h2>Today's Task</h2>
+    <div id="taskOutput"></div>
+    <button id="completeBtn">Mark Task as Completed</button>
+  </div>
+
+  <p style="text-align: center;">
+    <a href="https://www.allrecipes.com/" target="_blank">Visit AllRecipes for more desserts</a>
+  </p>
+
+  <div class="embedded-box">
+    &copy; 434-123-4567 | Lynchburg, VA 24502
+  </div>
+</body>
+</html>

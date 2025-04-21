@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Jaehyeong</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="proj2.js" defer></script>
+  <script src="proj3.js" defer></script>
+  <script src="proj5.js" defer></script>
+  <script src="proj6.js" defer></script>
+  <script src="proj7.js" defer></script>
+  <script src="proj9.js" defer></script>
+  <script src="proj10.js" defer></script>
+  <script src="proj11.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="objects.js" defer></script> 
+
+  <script src="https://kit.fontawesome.com/16d57c9235.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="menu-bar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-question"></i> About</a>
+    <a href="contact.html"><i class="fa-solid fa-message"></i> Contact</a>
+    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+    <a href="game.html"><i class="fa-solid fa-gamepad"></i>Game</a>
+    <a href="api.html"><i class="fa-solid fa-ice-cream"></i>Dessert</a>
+    <a href="search.html"><i class="fa-solid fa-search"></i>Search</a>
+    <a href="frames.html"><i class="fa-solid fa-chart-column"></i>Frames</a>
+  </nav>
+
+
+  <h1>Login to Your Account</h1>
+
+  <div class="login-container">
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <input type="submit" value="Login" />
+    </form>
+
+    <form id="customForm" style="margin-top: 30px;">
+      <h3>Personalize Your Page</h3>
+      <label>Background Color:
+        <input type="color" name="bgColor">
+      </label><br><br>
+      <label>Text Color:
+        <input type="color" name="textColor">
+      </label><br><br>
+      <label>Font Size:
+        <input type="number" name="fontSize" min="10" max="40" /> px
+      </label><br><br>
+      <input type="submit" value="Apply Preferences">
+    </form>
+
+    <div class="extra-links">
+      <p><a href="#">Forgot your password?</a></p>
+      <p><a href="#">Don't have an account? Sign up</a></p>
+    </div>
+  </div>
+
+  <div class="embedded-box">
+    &copy; 434-123-4567 | Lynchburg, VA 24502
+  </div>
+
+</body>
+</html>

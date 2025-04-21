@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Jaehyeong</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="proj2.js" defer></script>
+  <script src="proj3.js" defer></script>
+  <script src="proj5.js" defer></script>
+  <script src="proj6.js" defer></script>
+  <script src="proj7.js" defer></script>
+  <script src="proj9.js" defer></script>
+  <script src="proj10.js" defer></script>
+  <script src="proj11.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="objects.js" defer></script> 
+
+  <script src="https://kit.fontawesome.com/16d57c9235.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="menu-bar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-question"></i> About</a>
+    <a href="contact.html"><i class="fa-solid fa-message"></i> Contact</a>
+    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+    <a href="game.html"><i class="fa-solid fa-gamepad"></i>Game</a>
+    <a href="api.html"><i class="fa-solid fa-ice-cream"></i>Dessert</a>
+    <a href="search.html"><i class="fa-solid fa-search"></i>Search</a>
+    <a href="frames.html"><i class="fa-solid fa-chart-column"></i>Frames</a>
+  </nav>
+
+  <h1>Contact Me</h1>
+  <h2>I can speak Korean and English</h2>
+  <h2>My favorite dessert is banana pudding</h2>
+
+  <p class="highlight">
+    Romans 4:20-21<br />
+    Yet he did not waver through unbelief regarding the promise of God,
+    but was strengthened in his faith and gave glory to God, being fully persuaded that God had power to do what he had promised.
+  </p>
+
+  <form id="userForm">
+    <h3>User Selection</h3>
+    <p><strong>Preferred Contact Method:</strong></p>
+    <label><input type="checkbox" value="Email"> Email</label>
+    <label><input type="checkbox" value="Phone Call"> Phone Call</label>
+    <label><input type="checkbox" value="Text Message"> Text Message</label>
+
+    <p><strong>Inquiry Type:</strong></p>
+    <label><input type="checkbox" value="General Inquiry"> General Inquiry</label>
+    <label><input type="checkbox" value="Business Inquiry"> Business Inquiry</label>
+    <label><input type="checkbox" value="Other"> Other</label>
+
+    <input type="text" id="textInput" placeholder="Enter an item to add">
+    <button type="button" onclick="addSelection()">Add</button>
+    <button type="button" onclick="removeSelection()">Remove</button>
+
+    <h3>Selected Items</h3>
+    <ul id="selectionList"></ul>
+
+    <h3>Phone Number</h3>
+    <input type="text" id="phoneNumber" placeholder="Phone (Numbers Only)">
+    <p id="phoneError" style="color:red;"></p>
+
+    <h3>Upload a File</h3>
+    <input type="file" id="fileInput">
+    <pre id="fileContent"></pre>
+
+    <h3>Your Info</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="result"></div>
+
+  <div class="embedded-box">
+    &copy; 434-123-4567 | Lynchburg, VA 24502
+  </div>
+
+</body>
+</html>

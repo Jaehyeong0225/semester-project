@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Fruits</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/16d57c9235.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.js" defer></script>
+</head>
+<body>
+  <div class="menu-bar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-question"></i> About</a>
+    <a href="contact.html"><i class="fa-solid fa-message"></i> Contact</a>
+    <a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+    <a href="game.html"><i class="fa-solid fa-gamepad"></i>Game</a>
+    <a href="api.html"><i class="fa-solid fa-ice-cream"></i>Dessert</a>
+    <a href="search.html"><i class="fa-solid fa-search"></i>Search</a>
+    <a href="frames.html"><i class="fa-solid fa-chart-column"></i>Frames</a>
+  </div>
+
+  <main>
+    <h1>Fruit Search</h1>
+    <div id="special-section">
+      <p class="embedded-text">Type a fruit name to see</p>
+      <input type="text" id="searchInput" placeholder="Start typing..." autocomplete="off" />
+      <ul id="suggestions" style="
+        border: 1px solid #c1d9e7;
+        display: none;
+        list-style: none;
+        padding: 10px;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #2c3e50;
+      "></ul>
+    </div>
+  </main>
+</body>
+</html>
